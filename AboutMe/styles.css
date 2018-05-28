@@ -1,0 +1,119 @@
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(218, 247, 166 );
+    
+}
+p{
+    color:"black";
+    font-weight: "strong";
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.float-left {
+    float: left;
+    margin-left: 100px;
+    list-style: none;
+    display: block;
+} 
+.float-right {
+    float: right;
+    margin-right: 100px;
+}
+header {
+    height: 30px;
+    padding:20px;
+}
+h1,h2 {
+    font-family: 'fantasy';
+   font-size:50px;
+      color: black;
+
+  text-align: center;  
+}
+h3{
+    font-size:20px;
+    color: #121207;
+}
+div{
+    font-size: "50px";
+    color: "green";
+    padding:"20px";
+}
+
+.content-container {
+    width: 800px;
+    margin: auto;
+    
+}
+
+.item-tag{
+    background-color:whitesmoke;
+    color:black;
+    font-size: 15px;
+}
+/*fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}*/
+
+.footer {
+    text-align: center;
+    position: relative;
+    top: 280px;
+    margin: 15px 0;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: black;
+    color: white;
+}
+.fa-github {
+    background: black;
+    color: white;
+}
