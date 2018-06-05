@@ -3,5 +3,8 @@
     margin:30px;
     width:200px;
     height: 300px;
-    border-radius: 20px;
+    border-radius: 10px;
+}
+.green{
+    background-color: #60A491;
 }
