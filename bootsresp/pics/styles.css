@@ -1,0 +1,74 @@
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url("bodybackground.jpg");
+    
+}
+p{
+    font:"white";
+}
+ul{
+    padding:5px;
+}
+.float-left {
+    float: left;
+    margin-left: 100px;
+    list-style: none;
+    display: block;
+} 
+.float-right {
+    float: right;
+    margin-right: 100px;
+}
+header {
+    height: 30px;
+    padding:20px;
+}
+h1,h2 {
+    font-family: 'fantasy';
+   font-size:50px;
+      color: beige;
+
+  text-align: center;  
+}
+h3{
+    font-size:20px;
+    color: beige;
+}
+div{
+    font-size: "50px";
+    color: "green";
+    padding:"20px";
+}
+
+.content-container {
+    width: 800px;
+    margin: auto;
+    
+}
+
+.item-tag{
+    background-color:whitesmoke;
+    color:black;
+    font-size: 15px;
+}
+/*fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}*/
+
+.footer {
+    text-align: center;
+    position: relative;
+    top: 310px;
+    margin: 15px 0;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+
+}
